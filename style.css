@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(223, 238, 252);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 375px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  overflow-y: scroll;
+
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.search-bar {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  box-shadow: none;
+  font-size: 1rem;
+  font-weight: 600;
+  padding-left: 8px;
+}
+
+.product-list {
+  margin-top: 10px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.product-details {
+  width: 65%;
+}
+
+.image-container {
+  width: 30%;
+  background-color: antiquewhite;
+  border-radius: 10%;
+  margin-right: auto;
+  height: 70px;
+}
